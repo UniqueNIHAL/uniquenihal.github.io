@@ -3,6 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Nihal H U - Portfolio</title>
+    <style>
+        /* Navigation buttons */
+        nav ul li a {
+            background-color: #0099CC;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 20px;
+            transition: background-color 0.3s, transform 0.3s; /* Hover effect */
+        }
+
+        /* Hover effect */
+        nav ul li a:hover {
+            background-color: #3366FF;
+            transform: scale(1.1); /* Slight zoom effect on hover */
+        }
+
+        /* Make sure list items stay inline */
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        /* Style for footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <header style="text-align: center; background: linear-gradient(to bottom, #3366FF, #0099CC); color: white; padding: 20px;">
@@ -14,21 +46,20 @@
 
     <nav style="background: #333; padding: 10px; text-align: center;">
         <ul style="list-style-type: none; padding: 0;">
-            <li style="display: inline; margin: 0 10px;">
-                <a href="#about" style="text-decoration: none; color: white; font-size: 20px;">About Me</a>
+            <li>
+                <a href="#about">About Me</a>
             </li>
-            
-            <li style="display: inline; margin: 0 10px;">
-                <a href="projects.html" style="text-decoration: none; color: white; font-size: 20px;">Projects</a>
+            <li>
+                <a href="projects.html">Projects</a>
             </li>
-            <li style="display: inline; margin: 0 10px;">
-                <a href="courses.html" style="text-decoration: none; color: white; font-size: 20px;">Courses</a>
+            <li>
+                <a href="courses.html">Courses</a>
             </li>
-            <li style="display: inline; margin: 0 10px;">
-                <a href="internships.html" style="text-decoration: none; color: white; font-size: 20px;">Internships</a>
+            <li>
+                <a href="internships.html">Internships</a>
             </li>
-            <li style="display: inline; margin: 0 10px;">
-                <a href="contact.html" style="text-decoration: none; color: white; font-size: 20px;">Contact</a>
+            <li>
+                <a href="contact.html">Contact</a>
             </li>
         </ul>
     </nav>
@@ -37,16 +68,12 @@
         <a name="about"></a>
         <h2 style="color: #0099CC; font-size: 24px;">About Me</h2>
         
-
-
         <p style="font-size: 18px; line-height: 1.5; color: #333;">
             My journey in computer science began with my very first laptop, sparking a deep and enduring passion for the field. To advance my skills, I've undertaken several enriching experiences.
         </p>
-
         <p style="font-size: 18px; line-height: 1.5; color: #333;">
             I've had the privilege of interning with esteemed organizations, including <b>Samasti Forensics Lab</b>, where I delved into digital forensics, and Excelerate, where I interned as a <b>Cyber Forensic Analyst</b>. I've also embraced the world of project management during an IT internship.
         </p>
-
         <p style="font-size: 18px; line-height: 1.5; color: #333;">
             These internships have been invaluable, providing me with a broad perspective on various facets of computer science and helping me understand diverse domains.
         </p>
@@ -70,6 +97,8 @@
         <p style="font-size: 18px; line-height: 1.5; color: #333;">
             My ambition is to continue expanding my knowledge in the field of computer science. To achieve this, I've participated in <b>Google Cloud Study Jam and Cyber Security Study Jam</b> and successfully completed two paths, Gen AI and GCCF. I'm also actively working on developing my website and a mobile app.
         </p>
+        <!-- Additional content continues here -->
+
     </main>
 
     <footer style="background: #333; color: white; text-align: center; padding: 10px;">
